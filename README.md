@@ -65,3 +65,79 @@ weekly-timetable-reminder/
 ├─ .gitignore
 ├─ LICENSE
 └─ README.md
+⚙️ Installation & Setup
+Step 1: Clone the Repository
+git clone <your-github-repo-url>
+cd weekly-timetable-reminder
+
+Step 2: Create Virtual Environment (Recommended)
+python -m venv .venv
+
+
+Activate the environment:
+
+Windows PowerShell
+
+.venv\Scripts\Activate.ps1
+
+
+Windows CMD
+
+.venv\Scripts\activate
+
+Step 3: Install Dependencies
+pip install -r requirements.txt
+
+Step 4: Run the Application
+python src/app.py
+
+🗂️ Data Storage
+
+The application automatically creates and manages the following files:
+
+weekly_schedule.json – stores weekly timetable entries
+
+reminders.json – stores reminder messages and times
+
+These files ensure that user data persists between sessions.
+
+⚠️ Notes & Limitations
+
+Reminder notifications work only while the application is running
+
+Time format must be 24-hour (HH:MM)
+
+Windows notifications require a Windows OS
+
+📦 Optional: Build Executable (Windows)
+
+To convert the application into a standalone .exe file:
+
+pip install pyinstaller
+pyinstaller --onefile --windowed src/app.py
+
+
+The executable will be generated in the dist/ folder.
+
+📄 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this project with proper attribution.
+
+🙏 Acknowledgements
+
+Python Tkinter Documentation
+
+win10toast (Windows Notifications)
+
+pyttsx3 (Text-to-Speech Engine)
+
+👩‍💻 Author
+
+Akkasha Latif
+PhD Researcher in Artificial Intelligence
+
+⭐ If you find this project useful, consider giving it a star on GitHub!
+
+
+
