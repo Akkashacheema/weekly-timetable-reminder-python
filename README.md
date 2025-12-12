@@ -15,6 +15,7 @@ The system stores all timetable entries and reminders locally using JSON files, 
 This project demonstrates practical implementation of GUI development, file handling, multithreading, and event-driven programming in Python.
 
 ---
+<img width="1920" height="1080" alt="output" src="https://github.com/user-attachments/assets/a23a5f35-b12d-4d07-be90-af641ae08a50" />
 
 ## ✨ Features
 
